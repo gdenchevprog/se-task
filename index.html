@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Autocomplete Example</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="src/dropdown.js"></script>
+</head>
+
+<body>
+    <input id="countries" />
+
+    <script>
+        $("#countries").DropDownList({
+            data: ["United States", "Canada", "Afghanistan", "Albania", "Algeria", "American Samoa", "Andorra", "Angola", "Anguilla", "Antarctica", "Antigua and/or Barbuda", "Argentina", "Armenia", "Aruba", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Bouvet Island", "Brazil", "British Indian Ocean Territory", "Brunei Darussalam", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", "Cameroon"]
+        });
+    </script>
+</body>
+
+</html>
